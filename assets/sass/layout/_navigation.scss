@@ -1,0 +1,42 @@
+nav{
+  .navbar{
+    background-color: $White;
+  }
+  .container-fluid{
+    ul{
+      margin-right: 50px;
+      a{
+        color: $SmokyBlack;
+        font-family: $RalewayFont;
+        font-weight: 700;
+      }
+      a:hover{
+        color: $GraniteGray;
+      }
+    }
+
+    .nav-logo{
+      position: relative;
+      width: 100px;
+      height: 100px;
+      .text-logo{
+        position: relative;
+        top: -125px;
+        color: $White;
+        font-family: $OldStandardFont;
+        font-weight: 700;
+        left: 12px;
+        font-size: $XX-Large;
+      }
+      path{
+        fill: $SmokyBlack;
+      }
+      .svg-logo{
+        height: 158px;
+        position: relative;
+        bottom: 30px;
+        right: 32px;
+      }
+  }
+  }
+}

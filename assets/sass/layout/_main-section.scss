@@ -1,0 +1,12 @@
+main{
+  .grid-container{
+    display: grid;
+    grid-template-columns: 35% 5% 60%;
+    .main-img{
+      width: 100%;
+      background-image: url("../images/imagen1.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}
