@@ -11165,11 +11165,79 @@ main .grid-container {
   display: grid;
   grid-template-columns: 35% 5% 60%;
 }
+main .grid-container .main-info h1, main .grid-container .main-info .h1 {
+  margin-left: 100px;
+  margin-top: 70px;
+  width: 70%;
+  font-size: 50px;
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+main .grid-container .main-info p {
+  margin-left: 100px;
+  padding: 20px 0 20px 0;
+  width: 50%;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: #646266;
+}
+main .grid-container .main-info button {
+  margin-left: 100px;
+  background-color: #fff;
+  border: 2px solid #0C0910;
+  box-sizing: border-box;
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 18px;
+}
+main .grid-container .main-info button:hover {
+  background-color: #0C0910;
+  color: #ECECEC;
+}
 main .grid-container .main-img {
   width: 100%;
   background-image: url("../images/imagen1.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+main .grid-container .newsletter {
+  width: 100%;
+  background-color: #0C0910;
+  height: 250px;
+  box-sizing: border-box;
+  padding-top: 50px;
+}
+main .grid-container .newsletter h2, main .grid-container .newsletter .h2 {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 100px;
+}
+main .grid-container .newsletter form {
+  margin-left: 100px;
+}
+main .grid-container .newsletter label {
+  display: block;
+  font-family: "Old Standard TT", serif;
+  color: #fff;
+  font-size: 18px;
+}
+main .grid-container .newsletter input {
+  margin-top: 10px;
+  width: 50%;
+  border-radius: 0;
+  border: none;
+  box-sizing: border-box;
+  padding: 5px;
+}
+main .grid-container .main-suscribe h3, main .grid-container .main-suscribe .h3 {
+  writing-mode: vertical-lr;
+  font-family: "Old Standard TT", serif;
+  color: #0C0910;
+  font-weight: 700;
+  margin-top: 650px;
 }
 
 footer {

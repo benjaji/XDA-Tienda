@@ -2,11 +2,83 @@ main{
   .grid-container{
     display: grid;
     grid-template-columns: 35% 5% 60%;
+    .main-info{
+      h1{
+        margin-left: 100px;
+        margin-top: 70px;
+        width: 70%;
+        font-size: $XXX-Large;
+        font-family: $OldStandardFont;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      p{
+        margin-left: 100px;
+        padding: 20px 0 20px 0;
+        width: 50%;
+        font-family: $RalewayFont;
+        font-size: $Large;
+        color: $GraniteGray;
+      }
+      button{
+        margin-left: 100px;
+        background-color: $White;
+        border: 2px solid $SmokyBlack;
+        box-sizing: border-box;
+        padding: 10px 20px 10px 20px;
+        margin-bottom: 50px;
+        font-weight: 700;
+        font-size: $Large;
+      }
+      button:hover{
+        background-color: $SmokyBlack;
+        color: $Isabelline;
+      }
+    }
     .main-img{
       width: 100%;
       background-image: url("../images/imagen1.png");
       background-repeat: no-repeat;
       background-size: cover;
+    }
+    .newsletter{
+      width: 100%;
+      background-color: $SmokyBlack;
+      height: 250px;
+      box-sizing: border-box;
+      padding-top: 50px;
+      h2{
+        font-family: $OldStandardFont;
+        font-weight: 700;
+        color: $White;
+        margin-left: 100px;
+      }
+      form{
+        margin-left: 100px;
+      }
+      label{
+        display: block;
+        font-family: $OldStandardFont;
+        color: $White;
+        font-size: $Large;
+      }
+      input{
+        margin-top: 10px;
+        width: 50%;
+        border-radius: 0;
+        border: none;
+        box-sizing: border-box;
+        padding: 5px;
+      }
+    }
+    .main-suscribe{
+      h3{
+        writing-mode: vertical-lr;
+        font-family: $OldStandardFont;
+        color: $SmokyBlack;
+        font-weight: 700;
+        margin-top: 650px;
+      }
     }
   }
 }
